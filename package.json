@@ -1,0 +1,21 @@
+{
+  "name": "dsa-galego",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^30.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "ts-jest": "^29.4.9"
+  }
+}
