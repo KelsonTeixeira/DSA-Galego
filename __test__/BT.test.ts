@@ -1,5 +1,5 @@
-import BT from '../BT/01-binary-tree';
-import IOT from '../BT/iot';
+import BT from '../01-BT/01-binary-tree';
+import IOT from '../01-BT/iot';
 
 test('create a binary tree', function () {
   const tree = new BT<number>();

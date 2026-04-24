@@ -24,11 +24,11 @@ export default class BinaryTree<T> {
     return this.POT(this.root, []);
   }
 
-  inOrderTraversal(): T[] {
+  inOrderTraversal(): T[] { // O(n)
     return this.IOT(this.root, []);
   }
 
-  postOrderTraversal(): T[] {
+  postOrderTraversal(): T[] { // O(n)
     return this.PsOT(this.root, []);
   }
 

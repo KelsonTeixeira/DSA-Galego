@@ -1,4 +1,4 @@
-
+// O(1)
 class MaxHeap {
   public length: number;
   public list: number[][];

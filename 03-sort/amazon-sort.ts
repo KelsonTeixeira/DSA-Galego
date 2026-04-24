@@ -1,4 +1,4 @@
-
+// O(n log n)
 
 export default function Challenge(requests: number[][], inventory: number): number[] {
   const result: number[] = [];
