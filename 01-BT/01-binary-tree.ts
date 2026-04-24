@@ -20,7 +20,7 @@ export default class BinaryTree<T> {
     this.insertNode(value, this.root);
   }
 
-  preOrderTraversal(): T[] {
+  preOrderTraversal(): T[] { // O(n)
     return this.POT(this.root, []);
   }
 
